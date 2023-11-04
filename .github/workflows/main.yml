@@ -22,7 +22,7 @@ jobs:
 
 
     - name: Build with Maven
-      run: mvn clean install -Pdev -e
+      run: mvn clean install -Pdev -e -X
 
     - name: Run Tests
       run: mvn test
